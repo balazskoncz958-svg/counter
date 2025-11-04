@@ -1,0 +1,51 @@
+.container{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+button{
+
+    background-color: rgb(20, 128, 228);
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    height: 100px;
+    font-size: x-large;
+}
+
+button:hover{
+
+    background-color: rgb(106, 167, 236);
+}
+
+#szamlalo{
+
+    font-size: xx-large;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(127, 251, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+    
+}
